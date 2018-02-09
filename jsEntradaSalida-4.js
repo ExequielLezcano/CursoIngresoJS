@@ -6,12 +6,12 @@ function Mostar()
 {
 	var nombre;
 
-	nombre = prompt("ingrese su nombre","Chaja");
+	nombre = prompt("Ingrese su nombre","Arokh");
 
 	document.getElementById('elNombre').value = nombre;
-
-	/* Aca tomo el dato con prompt y luego escribo el document con la variable a la derecha
-       Al final de cada Document.getelementbyid lleva .value	
+	/* Luego de tomar el dato por prompt uso el document.getElementById().value 
+	   y coloco la variable en el lado derecho para que esta aparezca en la
+	   caja de texto luego de ingresar el nombre con el cuadro de dialogo de prompt
 
 	*/
 }
