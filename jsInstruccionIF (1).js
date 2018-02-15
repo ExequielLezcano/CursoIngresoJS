@@ -1,5 +1,5 @@
 function Mostrar()
-{ /* == igual
+{ /*== igual
 	 === Igualdad estricta
 	 != distinto
 	 > mayor
@@ -8,16 +8,16 @@ function Mostrar()
 	 >= menor o igual
 	 && y
 	 || o
-	*/
-	var edad;
+	 */
 
-	edad = document.getElementById('edad').value;
+	 var edad;
 
-	if(edad == 15)
-	{
-		alert("Niña bonita");
-	}
+	 edad = document.getElementById('edad').value;
 
+	 if(edad == 15)
+	 {
+	 	alert("Niña bonita");
+	 }
 //tomo la edad  
 
 
