@@ -5,42 +5,21 @@ function Mostrar()
 
    edad = document.getElementById('edad').value;
 
-   if(edad < 13)
-   {
-   	alert("Usted es un niño");
-   }
-
-   if(edad > 12 && edad < 18)
-   {
-   	alert("Usted es adolescente");
-   }
-
-   if(edad > 17)
-   {
-   	alert("Usted es mayor de edad");
-   }
-
-   /* if(edad < 13)
-   {
-   	alert("Usted es un niño");
-
-   }else
-   {
-	if(edad > 17)
+if(edad >= 18)
+{
+	 alert("Eres mayor de edad");
+}
+else
+{
+	if(edad >= 13)
 	{
-	  alert("Usted es mayor");
-
-	}else
-	{
-	  alert("Usted es adolescente");
+		alert("Eres adolescente");
 	}
-   }
-         La segunda forma de realizar el ejercicio y
-         la mas conveniente
-   */
-
-
-  
+	else
+	{
+		alert("Eres un niño");
+	}
+}
 
 
 
