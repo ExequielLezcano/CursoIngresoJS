@@ -14,11 +14,9 @@ function sumar()
 	numerouno = parseInt(numerouno);
 	numerodos = parseInt(numerodos);
 
-	suma = numerouno + numerodos
+	suma = numerouno + numerodos;
 
-	alert("El resultado es "+suma);
-
-
+	alert("El resultado es " + suma);
 }
 
 function restar()
@@ -35,14 +33,14 @@ function restar()
 
 	resta = numerouno - numerodos;
 
-	alert("La Resta es: "+resta);
+	alert("El resultado es " + resta);
 }
 
 function multiplicar()
 { 
 	var numerouno;
 	var numerodos;
-	var multiplicación;
+	var multiplicar;
 
 	numerouno = document.getElementById('numeroUno').value;
 	numerodos = document.getElementById('numeroDos').value;
@@ -50,9 +48,9 @@ function multiplicar()
 	numerouno = parseInt(numerouno);
 	numerodos = parseInt(numerodos);
 
-	multiplicación = numerouno * numerodos;
+	multiplicar = numerouno * numerodos;
 
-	alert("La multiplicación es "+multiplicación);
+	alert("El resultado es " + multiplicar);
 }
 
 function dividir()
@@ -69,6 +67,6 @@ function dividir()
 
 	dividir = numerouno / numerodos;
 
-	alert("El resultado de la división es "+dividir);
+	alert("El resultado es " + dividir);
 }
 

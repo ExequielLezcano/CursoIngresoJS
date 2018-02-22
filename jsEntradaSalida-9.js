@@ -4,24 +4,18 @@ mostrar el importe con un aumento del 10 %
 en el cuadro de texto "RESULTADO".*/
 function MostrarAumento()
 {
-	var elsueldo;
-	var aumento;
-	var elresultado;
+    var Importe;
+    var Aumento;
+    var Resultado;
 
-	elsueldo = document.getElementById('sueldo').value;
+    Importe = document.getElementById('sueldo').value;
 
-	elsueldo = parseInt(elsueldo);
+    Importe = parseInt(Importe);
 
-	aumento = 110 / 100;
+    Aumento = 110 / 100;
 
-	elresultado = elsueldo * aumento;
+    Resultado = Importe * Aumento;
 
-	document.getElementById('resultado').value = elresultado;
-
-	/*Pequeño truco: si pide aumento/descuento de tanto% suma ese
-	  mismo a 100% y luego dividilo por 100% para obtener el 
-	  aumento/descuento
-	*/
-
+    document.getElementById('resultado').value = Resultado;
 	
 }

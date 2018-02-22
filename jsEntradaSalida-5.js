@@ -9,7 +9,5 @@ function Mostar()
 	edad = document.getElementById('laEdad').value;
 
 	alert("Usted se llama " + nombre + " y tiene " + edad + " años");
-	/* Puedo concatenar (pegar) los textos y las variables usando el signo +
-	*/
 }
 

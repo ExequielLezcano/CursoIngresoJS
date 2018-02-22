@@ -14,7 +14,7 @@ function MostrarAumento()
 
 	Descuento = 125 / 100;
 
-	Resultado = Importe * Descuento;
+	Resultado = Importe / Descuento;
 
 	document.getElementById('resultado').value = Resultado;
 }

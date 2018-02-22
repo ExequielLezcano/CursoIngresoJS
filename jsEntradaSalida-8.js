@@ -14,11 +14,7 @@ function SacarResto()
 	dividendo = parseInt(dividendo);
 	divisor = parseInt(divisor);
 
-	resto= dividendo % divisor;
+	resto = dividendo % divisor;
 
 	alert("El resto es " + resto);
-
-
-
-
 }
