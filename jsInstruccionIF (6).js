@@ -1,25 +1,25 @@
 function Mostrar()
 {
 //tomo la edad  
-   var edad;
+  var Edad;
 
-   edad = document.getElementById('edad').value;
+  Edad = document.getElementById('edad').value;
 
-if(edad >= 18)
-{
-	 alert("Eres mayor de edad");
-}
-else
-{
-	if(edad >= 13)
-	{
-		alert("Eres adolescente");
-	}
-	else
-	{
-		alert("Eres un niño");
-	}
-}
+  if(Edad >= 18)
+	  {
+	  	alert("Usted es mayor de edad");
+	  }
+	  else
+	  {
+	  	 if(Edad >= 13)
+	  	 {
+	  	 	 alert("Eres adolescente");
+	  	 }
+	  	  else
+	  	  {
+	  	  	 alert("Eres un niño");
+	  	  }
+	  }
 
 
 
