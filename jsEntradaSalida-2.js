@@ -4,7 +4,7 @@ function Mostar()
 {
 	var nombre;
 
-	nombre = prompt("Ingrese su nombre","Lobelto");
+	nombre = prompt("Ingrese su nombre","Exequiel");
 
 	alert(nombre);
 }
