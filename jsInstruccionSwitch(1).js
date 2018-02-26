@@ -20,9 +20,11 @@ switch(Mesdelaño)
 		break;
 
 	case "Diciembre":
-		alert("Felices Fiestas");
-		break;		
+		alert("Felices fiestas");
+		break;
 }
+
+
 
 
 

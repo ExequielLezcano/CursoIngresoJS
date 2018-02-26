@@ -42,9 +42,10 @@ switch(Lahora)
 		break;
 
 	default:
-		alert("La hora no existe");
+		alert("El horario no existe");
 		break;
 }
+
 
 
 
