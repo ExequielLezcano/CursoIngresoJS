@@ -7,28 +7,29 @@ function Mostrar()
 	var numero;
 
 	while(respuesta == "si")
-	{   
-        contador = contador + 1;  
+		{
+			contador = contador + 1;
 
-		numero = prompt("Ingrese un numero");
+			numero = prompt("Ingrese un numero");
 
-		numero = parseInt(numero);
+			numero = parseInt(numero);
 
-		while(isNaN(numero))
+			while(isNaN(numero))
 			{
-				numero = prompt("Ingrese un numero");
+				numero = prompt("Error, por favor ingrese un numero");
 
 				numero = parseInt(numero);
 			}
 
+			acumulador = acumulador + numero;
 
-		acumulador = acumulador + numero; //O acumulador += numero;
-
-		respuesta = prompt("Si desea continuar ingrese la palabra, si");
-	}
+			respuesta = prompt("Si desea seguir, por favor indiquelo con la palabra: si");
+		}
 
 
-	document.getElementById('suma').value = acumulador;
-	document.getElementById('promedio').value = acumulador / contador;
+
+
+document.getElementById('suma').value = acumulador;
+document.getElementById('promedio').value = acumulador / contador;
 
 }//FIN DE LA FUNCIÓN
