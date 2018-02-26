@@ -1,25 +1,25 @@
 function Mostrar()
 {
 	//Genero el número RANDOM entre 1 y 10 
-  var Nota;
+   var nota;
 
-  Nota = Math.floor(Math.random() * 10) + 1;
+   nota = Math.floor(Math.random() * 10 ) + 1;
 
-  if(Nota >= 9)
-	  {
-	  	alert("Excelente " + Nota);
-	  }
-	  else
-	  {
-	  	if(Nota > 4 )
-	  	{
-	  		alert("Aprobó " + Nota);
-	  	}
-	  	 else
-	  	 {
-	  	 	alert("Vamos, la proxima se puede " + Nota);
-	  	 }
-	  }
+   if(nota >= 9)
+	   {
+	   	 alert("Excelente " + nota);
+	   }
+	    else
+	    {
+	    	if(nota > 4)
+	    	{
+	    		alert("Aprobó " + nota);
+	    	}
+	    	 else
+	    	 {
+	    	 	alert("Vamos, la proxima se puede " + nota);
+	    	 }
+	    }
 
 
 

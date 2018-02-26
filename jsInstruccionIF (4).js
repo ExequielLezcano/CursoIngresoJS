@@ -1,13 +1,13 @@
 function Mostrar()
 {
 //tomo la edad  
-  var Edad;
+  var edad;
 
-  Edad = document.getElementById('edad').value;
+  edad = document.getElementById('edad').value;
 
-  if(Edad >= 13 && Edad <= 17)
+  if(edad >= 13 && edad <= 17)
 	  {
-	  	alert("Eres adolescente.");
+	  	alert("Es adolescente");
 	  }
 
 
