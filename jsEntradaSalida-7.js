@@ -33,24 +33,24 @@ function restar()
 
    resta = numerouno - numerodos;
 
-   alert("El resultado es " + resta);
+   alert("EL resultado es " + resta);
 }
 
 function multiplicar()
 { 
    var numerouno;
    var numerodos;
-   var multiplicacion;
+   var multiplicar;
 
    numerouno = document.getElementById('numeroUno').value;
-   numerodos = document.getElementById('numeroDos').value,
+   numerodos = document.getElementById('numeroDos').value;
 
    numerouno = parseInt(numerouno);
    numerodos = parseInt(numerodos);
 
-   multiplicacion = numerouno * numerodos;
+   multiplicar = numerouno * numerodos;
 
-   alert("El resultado es " + multiplicacion);
+   alert("El resultado es " + multiplicar);
 }
 
 function dividir()
