@@ -1,16 +1,16 @@
 function Mostrar()
 {
 	//alert('iteración while');
-	var contador = 10;
+   var contador = 10;
 
-	while(contador > 0)
-	{
-		document.write(contador);
+   while(contador > 0)
+	   {  
 
-		contador = contador - 1;
-	}
+	   	  document.write(contador);
 
+	   	  contador = contador - 1;
 
-
+	   	  
+	   }
 
 }//FIN DE LA FUNCIÓN
