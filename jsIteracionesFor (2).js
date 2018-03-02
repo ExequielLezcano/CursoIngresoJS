@@ -1,8 +1,8 @@
 function Mostrar()
 {
-   for(var i = 10; i > 0; i = i - 1)
+   for(var contador = 10; contador > 0; contador --)
    {
-   	  console.log(i);
+   	 document.write(contador);
    }
 
 }
