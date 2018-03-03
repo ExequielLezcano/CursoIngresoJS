@@ -1,11 +1,11 @@
 function Mostrar()
 {
 //tomo la edad  
-var Lahora;
+var laHora; 
 
-Lahora = document.getElementById('hora').value;
+laHora = document.getElementById('hora').value;
 
-switch(Lahora)
+switch(laHora)
 {
 	case "7":
 	case "8":
@@ -42,11 +42,8 @@ switch(Lahora)
 		break;
 
 	default:
-		alert("El horario no existe");
-		break;
+		alert("La hora no existe");
 }
-
-
 
 
 }//FIN DE LA FUNCIÓN
