@@ -1,25 +1,28 @@
 function Mostrar()
 {
-   var numero;
-   var contador = 0;
+  var numero;
+  var contador = 0;
 
-   numero = prompt("Ingrese un numero");
+  numero = prompt("Ingrese un numero");
 
-   for(var i = 2; i <= numero; i++)
-   {
-   	  if(numero % i == 0)
-   	  {
-   	  	 if(numero / i == 1)
-   	  	 {
-   	  	 	 alert(numero + " Es primo");
-   	  	 }
-   	  	  else
-   	  	  {
-   	  	  	 alert("No es primo");
-   	  	  	 break;
-   	  	  }
-   	  }
-   }
+  numero = parseInt(numero);
+
+  for(var i = 1; i <= numero; i = i + 1)
+	  {
+	  	 if(numero % i == 0)
+	  	 {
+	  	 	 contador = contador + 1;
+	  	 }
+	  }
+
+  if(contador == 2)
+  {
+  	alert("El numero es primo");
+  }
+  else
+  {
+  	alert("El numero NO es primo");
+  }
 
 
 
