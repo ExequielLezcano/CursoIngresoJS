@@ -11,7 +11,7 @@ function Mostrar()
 	  {
 	  	alert("Es muy pequeño para NO ser soltero");
 	  }
-
+	
 
 
 }//FIN DE LA FUNCIÓN
